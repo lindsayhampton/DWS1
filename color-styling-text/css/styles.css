@@ -1,19 +1,28 @@
+/* color.html */
+
 #four {
 background-color: #B25672;
 }
 
 #three {
-background-color: #FFADC6
+background-color: #FFADC6;
 }
 
 #two {
-background-color: #FF94B4
+background-color: #FF94B4;
 }
 
 #one {
-background-color: #44B250
+background-color: #44B250;
 }
 
 #zero {
-background-color: #94FFA0
+background-color: #94FFA0;
+}
+
+/* styling-text.html */
+
+h1 {
+font-family: Georgia, Times, Serif;
+font-size: 2.5em;
 }
