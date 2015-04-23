@@ -1,6 +1,7 @@
 /* Body */
 
 body {
+	background-color: #666;
 	background-image: url("photos/teams.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
