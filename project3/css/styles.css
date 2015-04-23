@@ -32,6 +32,12 @@ em {
 	margin-bottom: 15px;
 	width: 60%;
 	border-radius: 25px;
+	float: left;
+}
+
+#NHL h2, #organize h2, #rules h2, #teams h2 {
+	margin: 0;
+	width: 94%;
 }
 
 #NHL p, #organize p, #rules p {
@@ -132,6 +138,10 @@ blockquote{
 	padding: 20px;
 	margin: 15px;
 	border-radius: 25px;
+}
+
+blockquote img {
+	float: left;
 }
 
 blockquote strong {
