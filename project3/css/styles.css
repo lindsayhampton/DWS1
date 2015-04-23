@@ -47,6 +47,15 @@ em {
 	width: 30%;
 	border-radius: 25px;
 	display: block;
+	padding: 20px;
+	padding-top: 0;
+	padding-left: 0;
+	margin: 15px;
+}
+
+#teams2 h2 {
+	margin: 0;
+	width: 94%;
 }
 
 #fix {
@@ -106,7 +115,7 @@ h2 {
 	border-radius: 25px 25px 0px 0px;
 }
 
-blockquote {
+blockquote{
 	font-size: 1.5em;
 	font-family: Helvetica, Verdana, sans-serif;
 	color: #FFF;
