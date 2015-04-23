@@ -34,9 +34,14 @@ em {
 	border-radius: 25px;
 }
 
-#NHL p, #organize p, #rules p, #teams p {
+#NHL p, #organize p, #rules p {
 	padding: 25px;
 	padding-top: 0;
+}
+
+#teams p {
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 #teams2 {
@@ -50,6 +55,7 @@ em {
 	padding: 20px;
 	padding-top: 0;
 	padding-left: 0;
+	padding-bottom: 0;
 	margin: 15px;
 }
 
@@ -104,8 +110,7 @@ h1 {
 
 h2 {
 	font-size: 2em;
-	font-family: Josefin Slab;
-	font-weight: bold;
+	font-family: NHL;
 	padding: 20px;
 	color: #FFFFFF;
 	background-image: url("photos/icebackground.jpg");
