@@ -36,8 +36,11 @@ a:link {
 }
 
 a:visited {
-	font-family: NHL, sans-serif;
 	color: rgba(148, 237, 255, 0.73);
+}
+
+a:active {
+	color: #000;
 }
 
 /* Sections */
