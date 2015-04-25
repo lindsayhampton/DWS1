@@ -181,7 +181,7 @@ nav {
 	font-family: Helvetica, Verdana, sans-serif;
 	font-size: 1em;
 	padding: 15px;
-	background-color: rgba(0, 0, 0, 0.67);
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.67), rgba(255, 255, 255, 0.67));
 	border-radius: 0 0 25px 25px;
 	margin-bottom: 25px;
 }
@@ -214,7 +214,7 @@ nav a:hover{
 	font-size: 1em;
 	padding: 5px;
 	padding-left: 25px;
-	background-color: rgba(0, 0, 0, 0.67);
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.67), rgba(255, 255, 255, 0.67));
 	border-radius: 25px 25px 0px 0px;
 }
 
