@@ -13,6 +13,11 @@ body {
 	margin: 0 auto;
 }
 
+p {
+	line-height: 110%;
+	padding: 0 25px 0px 25px;
+}
+
 @font-face {
 	font-family: "NHL";
 	src: url("font/NHL.ttf");
@@ -48,6 +53,7 @@ a:active {
 a:hover{
 	color: #02D4FF;
 	font-family: NHL;
+	font-size: 1.3em;
 }
 
 /* Sections */
@@ -58,23 +64,26 @@ a:hover{
 	background-color: #FFF;
 	box-shadow: 5px 5px 5px #000;
 	margin-bottom: 15px;
-	width: 60%;
 	border-radius: 25px;
+}
+
+#NHL {
+	margin: 0 0 15px 5%;
+	width: 50.5%;
 	float: left;
+	overflow: hidden;
+}
+
+#rules, #teams {
+	width: 43%;
+	float: left;
+	overflow: hidden;
+	margin: 15px 0 15px 5%;
 }
 
 #NHL h2, #rules h2, #teams h2 {
 	margin: 0;
 	width: 94%;
-}
-
-#NHL p, #rules p {
-	padding: 25px;
-	padding-top: 0;
-}
-
-#NHL p, #teams p {
-	padding: 0 25px 0 25px;
 }
 
 #NHL ul {
@@ -138,13 +147,14 @@ blockquote{
 	color: #FFF;
 	box-shadow: 5px 5px 5px #000;
 	text-shadow: 5px 3px 5px #333333;
-	float: right;
+	float: left;
 	width: 30%;
 	background-image: url("../images/icebackground.jpg");
 	background-repeat: repeat;
 	padding: 20px;
-	margin: 15px;
+	margin: 15px 5%;
 	border-radius: 25px;
+	overflow: hidden;
 }
 
 blockquote img {
@@ -152,9 +162,10 @@ blockquote img {
 }
 
 blockquote strong {
+	font-size: 1.1em;
 	font-family: NHL, sans-serif;
 	color: #02D4FF;
-	text-shadow: 5px 3px 5px #333333;
+	float: right;
 }
 
 /* Nav Styling */
