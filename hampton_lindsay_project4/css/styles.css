@@ -93,7 +93,7 @@ a:hover{
 #gallery {
 	font-size: .9em;
 	font-family: Helvetica, Verdana, sans-serif;
-	padding: 23px;
+	padding: 10px;
 	background-color: #FFF;
 	text-align: center;
 	border-radius: 0 0 25px 25px;
@@ -251,6 +251,44 @@ nav ul {
 
 nav li {
     display: inline;
+}
+
+/* Table Styles */
+
+table {
+	margin: 20px 5% 20px;
+	width: 350px;
+	text-align: center;
+	padding: 1px;
+	border-collapse: collapse;
+	border: 1px solid black;
+	font-size: 1em;
+}
+
+tr :hover {
+	color: #02D4FF;
+}
+
+th {
+	color: #FFF;
+	font-family: Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size:1.1em;
+	background-image: url("../images/icebackground.jpg");
+}
+
+tr {
+	margin: 0;
+	padding: 1px;
+}
+
+td {
+	margin: 0;
+	padding: 1px;
+	font-size: 1.1em;
+	font-family: Verdana, Helvetica, sans-serif;
+	background-color: #FFF;
+	border-bottom: 1px solid black;
 }
 
 
