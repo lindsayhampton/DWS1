@@ -4,6 +4,7 @@
 	<meta charset="utf-8" />
 	<title>The National Hockey League</title>
 	<link href="css/styles.css" rel="stylesheet">
+	<script src="js/script.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -27,7 +28,7 @@
 	
 	
 	<!-- SECTION 1 ~ OVERVIEW -->
-		<div id="NHL">
+		<section id="NHL">
 		<h2>NHL OVERVIEW </h2>
 		<p>
 			The <abbr title="National Hockey League"><strong>NHL</strong></abbr> is a <strong>professional ice hockey league</strong>  	composed of 30 member clubs: 23 in the United States and 7 in Canada. Headquartered in <em>New York City</em>, the NHL is widely considered to be the <em>premier professional ice hockey league in the world</em>, and one of the major professional sports leagues in the United States and Canada. <strong>The Stanley Cup</strong>, <em>the oldest professional sports trophy in North America</em>, is awarded annually to the league playoff champion at the end of each season.
@@ -40,7 +41,7 @@
 			</ul>
 		<p>Each team is classified relative to their location.
 		</p><br>
-	</div>
+	</section>
 	<!-- END SECTION 1 -->
 	
 	<!-- QUOTE -->
@@ -52,8 +53,8 @@
 	<!-- END QUOTE -->
 		
 	
-	<!-- SECTION 4 ~ RULES -->
-	<div id="rules">
+	<!-- SECTION 2 ~ RULES -->
+	<section id="rules">
 		<h2>GAME RULES</h2>
 				<p>
 					Each <strong><abbr title="National Hockey League">NHL</abbr> regulation game</strong> is played between two teams and is <em>60 minutes long</em>. The game is composed of <em>three 20-minute periods</em> with an intermission of either 15½ or 17 minutes (if nationally televised) between periods. 
@@ -67,11 +68,11 @@
 				<p>
 					  At the end of the 60-minute regulation time, the team with the most goals wins the game. If a game is tied after regulation time, overtime ensues. During the regular season, <strong>overtime is a five-minute, four-player on four-player sudden-death period, in which the first team to score a goal wins the game.</strong>
 				</p>
-	</div>
-	<!-- END SECTION 4 -->
+	</section>
+	<!-- END SECTION 2 -->
 	
-	<!-- SECTION 5 ~ ORIGINS -->	
-	<div id="teams">
+	<!-- SECTION 3 ~ ORIGINS -->	
+	<section id="teams">
 		<h2>NHL ORIGINS</h2>
 			<p>
 				The National Hockey League originated in <em>1917</em> with four Canadian teams, which after a tumultuous first quarter century, found stability in the <strong>Original Six</strong> era spanning 1942–67 with four franchises in the United States joining two Canadian clubs. Through a sequence of team expansions, reductions, and relocations the NHL currently consists of <em>30 teams</em>, 23 of which are based in the United States and seven in Canada.
@@ -89,8 +90,8 @@
 			<p>
 				The current <em>30-team NHL organization</em> divides the teams into <em>two conferences</em>: the <strong>Eastern Conference</strong> and the <strong>Western Conference.</strong> Each conference is split into two divisions:<em> the Eastern Conference contains 16 teams </em>(eight per division), while <em>the Western Conference has 14 teams </em>(seven per division). Sixteen of the league's thirty teams (the entire Eastern Conference) are located in the Eastern Time Zone. On the other hand, the Western Conference has six teams in the Central Time Zone, and 4 each in the Mountain and Pacific Time Zones. Up until the 2012–13 season, the <em>Detroit Red Wings</em> and<em> Columbus Blue Jackets</em> were the only Eastern Time teams in the Western Conference, and <em>Winnipeg Jets</em> was the only non-Eastern Time team in the Eastern Conference (a temporary alignment resulting from the franchise's move out of Atlanta in 2011).<br><br>
 			</p>
-	</div>
-	<!-- END SECTION 5 -->
+	</section>
+	<!-- END SECTION 3 -->
 		
 	<!-- GALLERY -->
 	<div id="galleryid">
@@ -110,6 +111,88 @@
 		</div>
 	</div>
 	<!-- END GALLERY -->
+	
+	<!-- SUBMISSION FORM -->
+	<div id="subscribeid">
+		<h2>SUBSCRIBE</h2>
+		<div id="subscribe">
+			<h3>
+				Subscribe to our site to receive more information and game updates!
+			</h3>
+
+			<form action="mailto:lrhampton@fullsail.edu" method="post">
+			<p>
+				<strong>First Name:</strong>
+				 <input type="text" name="firstname" maxlenth="15" required="required" placeholder="ex: John" />
+				<strong> Last Name:</strong>
+				 <input type="text" name="lastname" maxlength="20" required="required" placeholder="ex: Smith" />
+			</p>
+			<p> 
+				<strong>Email Address:</strong>
+				<input type="email" name="email" required="required" placeholder="ex: jsmith@hockey.nhl" />
+				<strong> Favorite Team:</strong>
+				<select name="favoriteTeam">
+					<option value="unselected">Select One:</option>
+					<option value="ducks">Anaheim Ducks</option>
+					<option value="coyotes">Arizona Coyotes</option>
+					<option value="bruins">Boston Bruins</option>
+					<option value="sabres">Buffalo Sabres</option>
+					<option value="flames">Calgary Flames</option>
+					<option value="hurricanes">Carolina Hurricanes</option>
+					<option value="blackhawks">Chicago Blackhawks</option>
+					<option value="avalanche">Colorado Avalanche</option>
+					<option value="bluejackets">Columbus Blue Jackets</option>
+					<option value="stars">Dallas Stars</option>
+					<option value="redwings">Detroit Red Wings</option>
+					<option value="oilers">Edmonton Oilers</option>
+					<option value="panthers">Florida Panthers</option>
+					<option value="kings">Los Angeles Kings</option>
+					<option value="wild">Minnesota Wild</option>
+					<option value="canadiens">Montréal Canadiens</option>
+					<option value="predators">Nashville Predators</option>
+					<option value="devils">New Jersey Devils</option>
+					<option value="islanders">New York Islanders</option>
+					<option value="rangers">New York Rangers</option>
+					<option value="senators">Ottawa Senators</option>
+					<option value="flyers">Philadelphia Flyers</option>
+					<option value="penguins">Pittsburgh Penguins</option>
+					<option value="sharks">San Jose Sharks</option>
+					<option value="blues">St. Louis Blues</option>
+					<option value="lightening">Tampa Bay Lightening</option>
+					<option value="mapleleafs">Toronto Maple Leafs</option>
+					<option value="canucks">Vancouver Canucks</option>
+					<option value="capitals">Washington Capitals</option>
+					<option value="jets">Winnipeg Jets</option>
+				</select>
+			</p>	
+			<p> 
+				<strong>Rate your love of hockey on a scale of 1 - 10!</strong><br>
+				<input type="radio" name="fan" value="dislike" />1 (dislike!)
+				<input type="radio" name="fan" value="2" />2
+				<input type="radio" name="fan" value="3" />3
+				<input type="radio" name="fan" value="4" />4
+				<input type="radio" name="fan" value="5" />5
+				<input type="radio" name="fan" value="6" />6
+				<input type="radio" name="fan" value="7" />7
+				<input type="radio" name="fan" value="8" />8
+				<input type="radio" name="fan" value="9" />9
+				<input type="radio" name="fan" value="love it" />10 (love!)
+			</p>
+			<p>
+				<input type="submit" value="Submit" />
+			</p>
+		</form>
+			
+			
+			
+			
+			
+			
+			
+			
+		</div>
+	</div>
+	<!-- END OF FORM -->
 	
 	<!-- BOTTOM OF PAGE ~ BACK TO TOP & FOOTER -->
 	<br>
