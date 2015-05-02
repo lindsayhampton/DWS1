@@ -4,7 +4,11 @@
 	<meta charset="utf-8" />
 	<title>The National Hockey League</title>
 	<link href="css/styles.css" rel="stylesheet">
-	<script src="js/script.js"></script>
+	<script language="Javascript">
+		function submitForm() {
+			alert("Thank you for submitting this form!\nA representative will be in touch with you soon.");
+			}
+	</script>
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -179,7 +183,7 @@
 				<input type="radio" name="fan" value="love it" />10 (love!)
 			</p>
 			<p>
-				<input type="submit" value="Submit" />
+				<input type="submit" value="Submit" onClick="submitForm()" />
 			</p>
 		</form>
 			
