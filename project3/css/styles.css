@@ -66,45 +66,16 @@ a:active {
 	padding-top: 0;
 }
 
-#teams p {
-	padding-left: 25px;
-	padding-right: 25px;
-}
 
-#teams2 {
-	font-size: .9em;
-	font-family: Helvetica, Verdana, sans-serif;
-	background-color: #FFF;
-	box-shadow: 5px 5px 5px #000;
-	float: left;
-	width: 30%;
-	border-radius: 25px;
-	display: block;
-	padding: 20px;
-	padding-top: 0;
-	padding-left: 0;
-	padding-bottom: 0;
-	margin: 15px;
-}
-
-#teams2 h2 {
-	margin: 0;
-	width: 94%;
+#NHL p, #teams p {
+	padding: 0 25px 0 25px;
 }
 
 #fix {
-	padding:25px;
-	padding-top: 0;
+	padding: 10px 25px;
 }
 
-#teams2 strong {
-	font-family: NHL, sans-serif;
-	font-size: 1.3em;
-	color: #02D4FF;
-	text-shadow: 2px 1px 2px #333333;
-}
-
-#organize ul, #teams2 ul {
+#organize ul, #NHL ul {
 	list-style-type: square;
 }
 
@@ -132,6 +103,34 @@ a:active {
 #gallery img:hover {
 	opacity: 1.0;
 }
+
+/* Teams Table */
+
+table {
+	border: solid black 2px;
+}
+
+tr {
+	border: solid black 2px;
+	margin: 0;
+	padding: 5px;
+}
+
+td {
+	border: solid black 2px;
+	margin: 0;
+	padding: 5px;
+	font-size: 1.3em;
+	font-family: Verdana, Helvetica, sans-serif;
+	background-color: #FFF;
+}
+
+form {
+	width: 300px;
+	border: 2px solid black;
+	margin: 0 auto;
+}
+
 
 /* Headings */
 h1 {

@@ -1,0 +1,138 @@
+/*------ Main Styles -----*/
+body {
+	margin: 0 auto;
+	padding: 0;
+	font: .75em/1.5em Helvetica, Arial, sans-serif;
+	color: #797267;
+	width: 960px;
+	background: #797267;
+}
+
+header {
+	background-image: url("../images/header-bg.jpg");
+	background-repeat: no-repeat;
+	height: 210px;
+	width: 960px;
+}
+
+footer {
+	background-image: url("../images/footer-bg.jpg");
+	background-repeat: no-repeat;
+	padding:92px 0 15px 0;
+	text-align: center;
+	font-size: 0.9em;
+	color: #423b2e;
+	width: 960px;
+	clear: both;
+}
+
+/* ------ Link Styles ------ */
+
+a:link {
+	text-decoration: none;
+	color: #423b2e;
+	font-weight: bold;
+	padding: 0 3px;
+}
+
+a:visited, a:active, a:hover {
+	color: #bf3102;
+}
+
+
+h1 a {
+	opacity: 0;
+}
+
+/* ------ Nav Styles ------ */
+
+nav {
+	width: 277px;
+	float: right;
+	margin: 0;
+	padding: 84px 64px 0 0;
+	text-transform: uppercase;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    border: none;
+}
+
+nav li {
+    display: inline;
+}
+
+/* ------ Div Styles ------ */
+
+#main-content {
+	background-image: url("../images/main-content-bg.jpg");
+	background-repeat: repeat-y;
+	padding-bottom: 5px;
+	margin: 0;
+	width: 960px;
+}
+
+#banner {
+	width: 890px;
+	height: 200px;
+	margin: 0 35px;
+	background-image: url("../images/banner.jpg");
+	background-position: center;
+}
+
+/* ------ Section Styles ------- */
+
+#column1of2 {
+	width: 450px;
+	float: left;
+	margin: 0 44px 0 64px;
+}
+
+#column2of2 {
+	width: 260px;
+}
+
+#column2of2 p img {
+	float: left;
+	padding: 4px 15px 15px 0;
+}
+
+#column2of2 p {
+	border-bottom: 2px solid #423b2e;
+	overflow: auto;
+}
+
+.page-flip {
+	padding: 0 0 45px 25px;
+	background-image: url("../images/page-flip.gif");
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	overflow: auto;
+}
+
+
+/* ------ Other Styles ------- */
+
+h1 {
+	margin: 64px;
+	background-image: url("../images/logo.gif");
+	background-repeat: no-repeat;
+	height: 71px;
+	width: 317px;
+	float: left;
+	overflow: hidden;
+}
+
+h2 {
+	margin: 20px 0 0 0;
+	padding: 10px;
+	color: #423b2e;
+	border-bottom: 2px solid #423b2e;
+}
+
+p {
+	padding: 0 0 5px 0;
+}
